@@ -1,0 +1,311 @@
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 col-sm-12 col-xs-12">
+            <nav id="navbar">
+                <style>
+                    html,body{
+  min-width:290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+#navbar{
+  position:fixed;
+  min-width:290px;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:100%;
+  border-right:solid;
+  border-color:rgba(0,22,22,0.4)
+}
+header{
+  text-align:center;
+  font-weight:thin;
+  font-size: 1.6em;
+  background-color: black;
+  color: white;
+  margin: 0.5em 0em;
+}
+a li:hover {
+    background-color: black!important;
+    color:white!important;
+}
+
+#main-doc header{
+  text-align:left;
+  margin:0px;
+}
+#navbar ul{
+  height:88%;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+#navbar li{
+  color: #4d4e53;
+  padding:8px;
+  list-style: none;
+  position:relative;
+  width:100%; 
+}
+#main-doc{
+  position: absolute;
+  margin-left:275px;
+  padding:20px;
+  margin-bottom:110px;
+}
+section article{
+  color: #4d4e53;
+  margin:15px;
+  font-size:1em;
+}
+section li {
+  margin:15px 0px 0px 20px;
+}
+code{
+  display:block;
+    text-align: left;
+  white-space: pre;
+  position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color:#f7f7f7;
+  padding:15px;
+  margin:10px;
+    border-radius:5px;
+}
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+  #navbar ul{
+  border:1px solid;
+    height:207px;
+  }
+    #navbar{
+      background-color:white;
+      position:absolute;
+      top:0;
+      padding:0;
+      margin: 0;
+      width:100%;
+      max-height:275px;
+      border:none;
+      z-index:1;
+      border-bottom:2px solid;
+    }
+  #main-doc{
+    position: relative;
+    margin-left:0px;
+    margin-top:270px;
+  }
+  #main-doc section {
+/*     padding-top: 240px; */
+  }
+}
+@media only screen and (max-width: 400px) {
+  #main-doc{
+    margin-left:-10px;
+  }
+  code{
+    margin-left:-20px;
+    width:100%;
+    padding:15px;
+    padding-left:10px;
+    padding-right:45px;
+    min-width:233px;
+  }
+}
+                </style>
+                <header>Building your own PC</header>
+                <ul class="nav nav-pills nav-stacked">
+                    <a class="nav-link" href="#picking" rel="internal">
+                        <li>Picking the right parts</li>
+                    </a>
+                    <a class="nav-link" href="#CPU" rel="internal">
+                        <li>Installing the CPU</li>
+                    </a>
+                    <a class="nav-link" href="#RAM" rel="internal">
+                        <li>Installing the RAM</li>
+                    </a>
+                    <a class="nav-link" href="#Checking" rel="internal">
+                        <li>Check the system boots</li>
+                    </a>
+                    <a class="nav-link" href="#PSU" rel="internal">
+                        <li>Installing the PSU</li>
+                    </a>
+                    <a class="nav-link" href="#motherboard" rel="internal">
+                        <li>Installing a motherboard</li>
+                    </a>
+                    <a class="nav-link" href="#storage" rel="internal">
+                        <li>Installing storage drives</li>
+                    </a>
+                    <a class="nav-link" href="#case" rel="internal">
+                        <li>Adding case fans</li>
+                    </a>
+                    <a class="nav-link" href="#GPU" rel="internal">
+                        <li>Installing a GPU</li>
+                    </a>
+                    <a class="nav-link" href="#Poweron" rel="internal">
+                        <li>Power on and diagnostics</li>
+                    </a>
+                    
+                
+
+            </nav>
+        </div>
+
+        <div class="col-md-10 col-sm-12 col-xs-12">
+            <main id="main-doc">
+                <section class="main-section" id="picking">
+                    <header>Picking the right parts</header>
+                    <article>
+                        <p>The most crucial part to get right is picking parts that do what you want and work with each other. Choosing wrong or incompatible PC parts may cause issues, damage to other components, or require time for returning said products to retailers. In short, we'll need a case, CPU, GPU, RAM, PSU (or power supply), motherboard, cabling, and some storage to complete the barebones checklist.</p>
+                        </artice>
+                </section>
+                <section class="main-section" id="CPU">
+                    <header>Installing the CPU</header>
+                    <article>
+                        <p>You'd have noticed I said we'll be installing the PSU first, but that's only when we're sure everything works. Before we fit everything inside the PC case, we'll need to check all our components actually work out the box. Instead of throwing everything inside the case and discovering there's an issue, unpacking everything on your chosen flat surface and installing a few components to test is the best way to go.</p>
+
+                        <p>Unpack your PSU, CPU, RAM, and motherboard for this. The first step here is to install the CPU, which requires you to remove the motherboard from its packaging too. This is a super-easy process, regardless of whether you're rocking an AMD or Intel chip.</p>
+                       <ol>
+                        <li>Unpack the motherboard from its packaging.</li>
+                        <li>Place the motherboard atop its cardboard box. (It's safe here. Never place on carpet.)</li>
+                        <li>Open the CPU latch.</li>
+                        <li>The plastic cap will pop off once we install the CPU. Keep this safe! Just in case you need to return the motherboard to the manufacturer. </li>
+                        <li>Insert the CPU, matching notches and indicators to the socket. (Do not apply pressure, it should lie flush without force.)
+                        </li>
+                        <li>Close the latch to secure the CPU. (This step will require some amount of pressure, popping off the plastic cap.)</li>
+                        </artice>
+                        <p>Now, we'll need to install the CPU cooler. Depending on the cooler you've purchased, you may have a layer of thermal paste already applied. If not, we'll need to do this before installing the cooler. (Tip: less is more.) The manual will run you through the process of installation, which can vary between coolers and manufacturers.</p>
+
+                        <p>Especially with aftermarket coolers — both water and air — you'll need to pay close attention to the manual that comes with the product. This is why it's better to do all these steps with the motherboard outside the PC case for easier handling.</p>
+
+                        <p>After many years of falling behind Intel, AMD has come leaps and bounds with Ryzen, and this latest generation is even better. There has never been a better time to hop over to team red, and the Ryzen 5 5600X is the perfect entry point for most PCs. There's even an included cooler to get you up and running.</p>
+                </section>
+                <section class="main-section" id="RAM">
+                    <header>Installing the RAM</header>
+                    <article>
+                        <p>RAM is a sensitive component and, as such, should be handled with care. It's recommended that contact is avoided with the contact pins on the underside of each module. The RAM slots on a motherboard are located to the right of the CPU. Do check the motherboard manual as to which RAM slots are to be used, depending on how many sticks you have.</p>
+                        <ol>
+                         <li>Unclip the RAM locks on the motherboard module slots.</li> 
+                         <li>Match the RAM module notches to those found in the slots on the motherboard.</li> 
+                         <li>Insert the module carefully, using light even force across the stick.</li>  
+                         <li>After it inserts into the slot, push down on either side of the RAM module until it securely clicks into place.</li>   
+                        </ol>
+                        <p>It's vital to choose RAM that will be best matched with the motherboard and CPU, and this 3200MHz kit is excellent for the Ryzen 5 5600X and accompanying motherboard. There's also room for some tuning at a later date when you need a little more from your system memory.</p>
+
+
+                    </article>
+                </section>
+                <section class="main-section" id="Checking">
+                    <header>Check the system boots</header>
+                    <article>
+                         <p>With the CPU and RAM installed, the motherboard is now ready to boot. If you're using a Ryzen or Intel CPU without integrated graphics processing (our 5600X is one such CPU), we'll also need to install our GPU here to get an output from the motherboard.</p>
+
+                        <p>Unpack the GPU from its box and carefully seat it into the top-most PCIe slot. Press down until you hear it click. The GPU should be fine sat atop of the motherboard, but you may need to allow the backplate to hang over the edge of the motherboard box so it can lie flush with the board itself.</p>
+
+                        <p>All we require now is power. Reference your motherboard and PSU manuals to sort through the right cables and connectors.</p>
+
+                        <ol>
+                            <li>Hook up the main 24-pin ATX cable to the PSU and motherboard (it's the largest one in the bundle).</li>
+                            <li>Connect the CPU ATX power cable (usually a 4+4 pin connector, some motherboards take two or three) to the PSU and motherboard.</li>
+                            <li>Install any PCIe power cabling for the GPU if it requires it.</li>
+                            <li>Connect an HDMI or DisplayPort cable to an available port on your GPU (or motherboard if your CPU has an integrated GPU).</li>
+                        </ol>
+
+                        <p>Usually, to turn on a PC, you'll want to hit the power button, but since our PC is not technically inside a case yet, we have no power button. Luckily, we don't require the power button to turn everything on. We can emulate a physical button by simply using a screwdriver to create a bridge between the to POWER_SW pins on the motherboard.</p>
+
+                        <p>Again, consult your motherboard manual to locate these pins. By simply making contact with the + and - pins for POWER_SW we're telling the motherboard to turn the system on. It's precisely what happens when you hit the power button on your PC case.</p>
+                        
+                        <p>If everything boots through the BIOS and you see the splash screen, go into the setup by hitting the DEL key as the system cycles. Check that all your RAM is registered here. All good? Shut everything down and disconnect all the cables, removing the GPU and placing it back into its protective wrapping. It's now time to install the PC inside the case.</p>
+                    </article>
+                </section>
+                <section class="main-section" id="PSU">
+                    <header>Installing the PSU</header>
+                    <p>
+                       The PSU is the most critical component of any PC. It provides the juice required for all the computing magic to take place. Depending on the case you've purchased, we'll need to install the unit with the fan facing up or down. To determine which is most optimal, check if you have a vent at the bottom of the case. If so, face the PSU fan downwards.
+                    </p>
+                    <p>
+                       You'll want to have all your cables connected to the PSU prior to installing it to make your job easier. Depending on the PSU you've purchased, it may be one of the following:
+                    </p>
+                    <ul>
+                        <li>Fully modular: No cables are permanently connected to the PSU.</li>
+                        <li>Semi-modular: Some cables are permanently fixed, usually ATX and CPU power.</li>
+                        <li>Non-modular: Every cable is connected and cannot be removed from the PSU.</li>
+                    </ul>
+                    <p>
+                       Fully and semi-modular PSUs are the easiest to work with as you'll have an easier time making sure all cables look neat and tidy.
+                    </p>
+                    <ol>
+                        <li>Slide the PSU into the mounting area with the fan facing up or down.</li>
+                        <li>Screw in the bundled screws (should come with the case) in the four holes at the rear of the case.</li>
+                        <li>Ensure the unit is switched off using the rear switch.</li>
+                        <li>Plug the PSU into a power socket to ground the PC.</li>
+                        <li>Bind all the power cables coming out of the PSU together and put them to one side.</li>
+                    </ol>
+                    <p>The PSU is the most critical component inside your PC case. It's what provides power to all other components and, as such, should be able to supply a reliable current. NZXT uses the Seasonic PSU platform, which is one of the best available. You can trust this PSU to provide clean, stable power.</p>
+
+                </section>
+                <section class="main-section" id="motherboard">
+                    <header>Installing the motherboard</header>
+                    <article>
+                        With the CPU, the cooler, and RAM modules installed, the motherboard is ready to be screwed to the backplate inside the case. First, we need to install the I/O shield, a long piece of metal that has cutouts for all the rear ports and connections. This is optional, but recommended accessory helps provide electromagnetic interference (EMI) protection.
+                       <ol>
+                           <li>Place the I/O shield to the rear cutout in the PC case and click into place. (This can be super-fiddly so bear with it.)</li>
+                           <li>Hover the motherboard atop the backplate to see where standoffs need to be screwed in. Different sizes need different holes. 
+                            <p>
+                               Standoffs are the screws that are installed on the motherboard backplate, which then allows the motherboard to rest atop them and for screws to secure the board. Some cases have them pre-installed.
+                           </p></li>
+                           <li>Install the standoffs for the motherboard, if not already pre-installed. (Some backplates may feature ATX labels next to holes to guide you.)</li>
+                           <li>Lower the motherboard onto the standoffs.</li>
+                           <li>Tighten the screws, but do not overtighten them — just enough to secure the board in place.</li>
+                           <li>Check the sides of the motherboard by lightly pulling to make sure every inch has been secured.</li>
+                       </ol>
+                        <p>
+                            Motherboards allow for the CPU, memory, storage, GPU, and all other components to communicate with one another, and MSI's MPG X570 Gaming Plus is a great solution. It's reliable, houses premium parts, has a ton of features, and a solid UEFI setup that allows you to overclock your system easily.
+                        </p>
+                    </article>
+                </section>
+                <section class="main-section" id="storage">
+                    <header>Install storage drives</header>
+                    <article>
+                        <p> Storage drives are essential devices that hold not only the operating system but also all programs, personal media, and all other data. It's recommended to use an SSD (be it M.2 or 2.5-inch) drive for the primary OS partition, which enables for quick booting and reliable performance. Data can be stored on traditional (3.5-inch) mechanical drives.</p>
+
+                        <p>M.2 PCIe NVMe drives are the fastest with SATA M.2 and 2.5-inch drives coming in second. 3.5-inch drives come in last for speed but are the most affordable, especially at higher capacities.</p>
+                        <p>Depending on the case and how drive bays are configured, M.2, 2.5- and 3.5-inch drives may be able to be installed at the same points or using dedicated brackets. Be sure to double-check the PC case manual. We'll go over how your PC case may have both configured below.</p>
+                        <p>Next, we need to connect the storage drives to the motherboard, using SATA data cables. These are mostly smaller versions of their power siblings that carry data instead. The motherboard usually has SATA ports located to the lower-right hand-side. It doesn't matter which ports are used. Much like the power cables, route these through cut-outs and grommets to the drive bays and mounts.</p>
+                        <p>We now have power to our storage drives and the motherboard, as well as data channels between drives and the mainboard. All that's left is to connect front panel I/O and other optional connectors (front panel USB, HD audio, etc.). Connecting the front panel I/O, which includes the power switch, reset switch, HDD activity LED, and power LED can be a tricky step.</p>
+                        <p>These pins stand up from the motherboard, which requires a careful approach when plugging in the small connectors. The motherboard manual should provide information as to the layout of these pins and what they correspond to — though usually the below layout is used:</p>
+                    </article>
+                </section>
+                <section class="main-section" id="case">
+                    <header>Adding case fans</header>
+                    <article>
+                        <p>For added cooling capacity (and room for overclocking or more stable operation), throwing in an extra fan or two is worthwhile. PC cases may come with fans pre-installed, but if not, it's simple to screw them into fan mounts. Just be sure to align them correctly and have the blades pointing the correct way. Fans can have small arrows on the side that show which way the blades spin and where airflow will be directed.</p>
+
+                        <p>Note: some cases may require you to install fans before inserting the motherboard, especially for the top exhaust. Fans can either be plugged into a motherboard or into the PSU directly using an adapter. We'd always recommend the motherboard due to the ability to control the fans intelligently depending on system temperatures.</p>
+                        <p>Fan headers can be located on the motherboard itself, where the 3 (or 4) pin connectors can be inserted.</p>
+                    </article>
+                </section>
+                <section class="main-section" id="GPU">
+                    <header>Installing a GPU</header>
+                    <article>
+                        <p>Need some extra power for gaming and intense workloads? The best graphics card is a must-have. As a bonus, it's straightforward to install a graphics card. We usually leave the GPU until last because of how much space they typically take within the chassis.</p>
+
+                      <ol>
+                        <li>Unscrew the rear PCI case brackets that align with the PCI slot you will use.</li>
+                        <li>Check that the motherboard GPU card latch is open.</li>  
+                        <li>Line up the GPU to the PCIe slot on the motherboard.</li>  
+                        <li>Carefully insert the card and push down once it has made contact with the slot, listening out for a click of the latch securing.</li>  
+                        <li>Use the rear bracket screws to secure the GPU to the PC case for added stability.</li>  
+                        <li>If the GPU requires additional PSU power, connect the necessary cables.</li>    
+
+                      </ol>
+                    </article>
+                </section>
+                <section class="main-section" id="Poweron">
+                    <header>Power up</header>
+                    <p>All that hard work will now pay off. It's time to boot up the PC and make sure everything is working fine now that all components are inside the case. Switch on the PSU and hit the power switch. You should now be greeted by the BIOS POST screen, asking for an OS to be installed if one is not detected. You'll now need to follow OS installation instructions. If you run into problems, it's time to do a little troubleshooting.</p>
+                        
