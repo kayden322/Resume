@@ -1,0 +1,303 @@
+<head>
+  <title>Sharity Product Landing Page</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<style>
+
+
+
+body {
+  background-color: rgba(0, 128, 0, 0.3);
+  font-family: 'Francois One', sans-serif;
+  font-style: italic;
+  color: rgb(51,51,51);
+}
+#page-container {
+  position: relative;
+}
+#header {
+  background-color: rgb(0,255,0);
+  position: fixed;
+  top: 0;
+  min-height: 77px;
+  width: 100%;
+  padding: 0px 23px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  @media (max-width: 568px) {
+      flex-wrap: wrap;
+  }
+}
+#header-img {
+  padding: 11px;
+  width:100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 27px;
+  @media (max-width: 568px) {
+    position: relative;
+  }
+}
+h1 {
+  padding: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#nav-bar {
+  padding: 3px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  @media (max-width: 568px) {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+.nav-link {
+  margin: 23px;
+  padding: 11px;
+  font-size: 19px;
+  color: rgb(51,51,51);
+  @media (max-width: 568px) {
+    flex-direction: column;
+  }
+}
+button {
+  margin: 11px;
+  padding: 7px;
+  background-color: rgb(233,105,77);
+  border: 3px solid rgb(51,51,51);
+  border-radius: 9px;
+  @media (max-width: 568px) {
+    flex-direction: column;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 127px;
+  margin-bottom: 23px;
+  h2 {
+    margin-bottom: 7px;
+  }
+  p {
+    font-size: 19px;
+  }
+  #email {
+    display: flex;
+    text-align: center;
+    font-size: 19px;
+    margin: 13px;
+    width: 323px;
+    height: 27px;
+    border: 2px solid rgb(243,112,32);
+    border-radius: 9px;
+  }
+  #submit {
+    margin: 13px;
+    padding: 5px;
+    font-size: 19px;
+    background-color: rgb(243,112,32);
+    border: 2px solid rgb(51,51,51);
+    border-radius: 9px;
+    &:hover {
+      background-color: red;
+      transition: background-color 2s;
+    }
+  }
+  @media (max-width: 568px) {
+    margin-top: 320px;
+  }
+}
+.contents {
+  width: 100%;
+  margin: 0, auto;
+}
+#features {
+  padding: 23px;
+  .list {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    }
+  .icon, {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 41px 17px 0px 0px;
+    padding: 13px;
+    color: rgb(243,112,32);
+    .material-icons {
+      transform: scale(2,2);
+      }
+    @media (max-width: 568px) {
+      display: none;
+    }
+    }
+  .discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    @media (max-width: 568px) {
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+      padding: 20px;
+      height: 250px;
+    }
+    }
+  @media (max-width: 568px) {
+    margin-top: 0px;
+  }
+}
+#how-it-works {
+  display: flex;
+  margin-top: 71px;
+  justify-content: center;
+    iframe {
+      max-width: 560px;
+      width: 100%;
+    }
+  #copper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%/3);
+    margin: 11px;
+    border: 7px solid rgb(243,112,32);
+    border-radius: 9px;
+  }
+  #platinum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%/3);
+    margin: 11px;
+    border: 7px solid rgb(243,112,32);
+    border-radius: 9px;
+  }
+  #iridium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%/3);
+    margin: 11px;
+    border: 7px solid rgb(243,112,32);
+    border-radius: 9px;
+  }
+  .option {
+    font-size: 23px;
+    text-align: center;
+    padding: 7px;
+  }
+  .btn {
+    padding: 13px;
+    width: 97px;
+    &:hover {
+     background-color: red;
+     transition: background-color 2s;
+    }
+  }
+  li {
+    text-align: left;
+  }
+  @media (max-width: 568px) {
+    flex-direction: column;
+    #copper, #platinum, #iridium {
+      max-width: 568px;
+      width: 100%;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+  }
+}
+footer {
+  margin: auto;
+  text-align: center;
+}
+</style>
+<body>
+  <div id="page-container"> <!-- Overall Div Page Container -->
+    <header id="header"> <!-- Page Header -->
+      <img id="header-img" src="https://scontent.fcrk2-1.fna.fbcdn.net/v/t1.15752-9/89954037_246094976411021_9180874177274445824_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=ae9488&_nc_ohc=19dStnIlxFcAX_GvyNN&_nc_ht=scontent.fcrk2-1.fna&oh=70b4d787992ebf1b930cc4d7370992b6&oe=60842464" alt="Sharity Logo"/>
+      <h1>SHARITY</h1> <!-- Page Title -->
+      <nav id="nav-bar"> <!-- Navigation Bar -->
+        <button><a class="nav-link" href="#features">Features</a></button>
+        <button><a class="nav-link" href="#how-it-works">How It Works</a></button>
+      </nav>
+    </header>
+    <br>
+  
+    <div class="form-container"> <!-- Form Container -->
+      <h2>It's more than just a <u>bill</u></h2> <!-- Form Title -->
+      <p>Subscribe to our mailing list for news alerts and offers!</p>
+      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Please enter your email:" required/>
+        <input id="submit" type="submit" value="Send"/>
+      </form>
+    </div>
+    <br>
+ 
+    <div class="contents"> <!-- Content Container -->
+      <section id="features"> <!-- Features Section -->
+        <div class="list"> <!-- Quality Feature -->
+          <div class="icon">
+            <i class="material-icons">assignment_turned_in</i>
+          </div>
+          <div class="discription">
+            <h2>Quality</h2>
+            <p>Our number one priority is to provide our customers with a excellent experience in buying your favorite Social Media influencers merchandices</p>
+          </div>
+        </div>
+        <div class="list"> <!-- Technology Feature -->
+          <div class="icon">
+            <i class="material-icons">build</i>
+          </div>
+          <div class="discription">
+            <h2>Technology</h2>
+            <p>We build this website to help people escape from poverty!</p>
+          </div>
+        </div>
+        <div class="list"> <!-- Customer Service Feature -->
+          <div class="icon">
+            <i class="material-icons">settings_phone</i>
+          </div>
+          <div class="discription">
+            <h2>Customer Service</h2>
+            <p>We offer 24/7 customer service to ensure our customers are 100% satisfied with their experience using the app!</p>
+          </div>
+        </div>
+      </section>
+      <br>
+      
+      <section id="how-it-works"> <!-- How It Works Section -->
+        <iframe frameborder="0" width="560" height="315" src="https://biteable.com/watch/embed/sharity-2467841" allowfullscreen="true" allow="autoplay"></iframe>
+      </section>
+      <br>
+      
+      
+    </div>
+    <br>
+
+  </div>
+</body>
+
